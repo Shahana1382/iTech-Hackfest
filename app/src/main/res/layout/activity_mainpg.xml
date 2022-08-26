@@ -1,0 +1,257 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg"
+    tools:context=".mainpg">
+
+    <TextView
+        android:id="@+id/search"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginVertical="22dp"
+        android:layout_marginStart="70dp"
+        android:drawableLeft="@drawable/ic_baseline_search_24" />
+
+    <TextView
+        android:id="@+id/sidebar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginVertical="22dp"
+        android:layout_marginStart="10dp"
+        android:backgroundTint="@color/cardview_shadow_end_color"
+        android:drawableLeft="@drawable/ic_baseline_more_vert_24" />
+
+    <EditText
+        android:id="@+id/searchbar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="95dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginEnd="90dp"
+        android:layout_marginBottom="10dp"
+        android:background="#30ffffff"
+        android:drawablePadding="20dp"
+        android:hint="Search"
+        android:padding="20dp"
+        android:textColor="@color/black"
+        android:textColorHint="@color/black" />
+
+    <TextView
+        android:id="@+id/personal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginVertical="22dp"
+        android:layout_marginStart="350dp"
+        android:backgroundTint="@color/cardview_shadow_end_color"
+        android:drawableLeft="@drawable/ic_baseline_person_24" />
+
+    <TextView
+        android:id="@+id/user1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="50dp"
+        android:layout_marginTop="70dp"
+        android:layout_marginEnd="50dp"
+        android:layout_marginBottom="50dp"
+        android:text="Arvind Ragunath"
+        android:textColor="@color/black"
+        android:textSize="20dp" />
+
+
+    <TextView
+        android:id="@+id/username1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="70dp"
+        android:layout_marginTop="100dp"
+        android:layout_marginEnd="50dp"
+        android:layout_marginBottom="50dp"
+        android:text="ar_vind29"
+        android:textColor="@color/black"
+        android:textSize="10dp" />
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/user1btn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="50dp"
+        android:layout_marginTop="120dp"
+        android:layout_marginEnd="20dp"
+        android:layout_marginBottom="20dp"
+        android:backgroundTint="@color/teal_700"
+        android:text="Android task monitoring"
+        android:textSize="12dp" />
+
+    <TextView
+        android:id="@+id/username1pu"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="50dp"
+        android:layout_marginTop="165dp"
+        android:layout_marginEnd="50dp"
+        android:layout_marginBottom="50dp"
+        android:text="Completed Project"
+        android:textColor="@color/black"
+        android:textSize="10dp" />
+
+    <TextView
+        android:id="@+id/user1project"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="50dp"
+        android:layout_marginTop="180dp"
+        android:layout_marginEnd="50dp"
+        android:layout_marginBottom="50dp"
+        android:text="Alert the user of all the important tasks that are due on a specific day, every week."
+        android:textColor="@color/black"
+        android:textSize="15dp" />
+
+    <TextView
+        android:id="@+id/user2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="50dp"
+        android:layout_marginTop="240dp"
+        android:layout_marginEnd="50dp"
+        android:layout_marginBottom="50dp"
+        android:text="Dharshini Suresh"
+        android:textColor="@color/black"
+        android:textSize="20dp" />
+
+    <TextView
+        android:id="@+id/username2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="70dp"
+        android:layout_marginTop="270dp"
+        android:layout_marginEnd="50dp"
+        android:layout_marginBottom="50dp"
+        android:text="dharshini_13"
+        android:textColor="@color/black"
+        android:textSize="10dp" />
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/user2btn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="50dp"
+        android:layout_marginTop="290dp"
+        android:layout_marginEnd="20dp"
+        android:layout_marginBottom="20dp"
+        android:backgroundTint="@color/teal_700"
+        android:text="Sentiment analysis for product rating"
+        android:textSize="12dp" />
+
+    <TextView
+        android:id="@+id/username2pu"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="50dp"
+        android:layout_marginTop="338dp"
+        android:layout_marginEnd="50dp"
+        android:layout_marginBottom="50dp"
+        android:text="Looking for help"
+        android:textColor="@color/black"
+        android:textSize="10dp" />
+
+    <TextView
+        android:id="@+id/user2project"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="50dp"
+        android:layout_marginTop="355dp"
+        android:layout_marginEnd="50dp"
+        android:layout_marginBottom="50dp"
+        android:text="Web Application project to understand the hidden sentiments of customers in feedback and comments and analyse their product rating pattern"
+        android:textColor="@color/black"
+        android:textSize="15dp" />
+
+    <TextView
+        android:id="@+id/user3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="50dp"
+        android:layout_marginTop="450dp"
+        android:layout_marginEnd="50dp"
+        android:layout_marginBottom="50dp"
+        android:text="Arjun Reddy"
+        android:textColor="@color/black"
+        android:textSize="20dp" />
+
+    <TextView
+        android:id="@+id/username3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="70dp"
+        android:layout_marginTop="480dp"
+        android:layout_marginEnd="50dp"
+        android:layout_marginBottom="50dp"
+        android:text="arjun_12"
+        android:textColor="@color/black"
+        android:textSize="10dp" />
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/user3btn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="50dp"
+        android:layout_marginTop="495dp"
+        android:layout_marginEnd="20dp"
+        android:layout_marginBottom="20dp"
+        android:backgroundTint="@color/teal_700"
+        android:text="ASolar wireless Electric Vehicle Charging System"
+        android:textSize="12dp" />
+
+    <TextView
+        android:id="@+id/username3pu"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="50dp"
+        android:layout_marginTop="540dp"
+        android:layout_marginEnd="50dp"
+        android:layout_marginBottom="50dp"
+        android:text="Looking for aid"
+        android:textColor="@color/black"
+        android:textSize="10dp" />
+
+    <TextView
+        android:id="@+id/user3project"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="50dp"
+        android:layout_marginTop="555dp"
+        android:layout_marginEnd="50dp"
+        android:layout_marginBottom="50dp"
+        android:text="The system demonstrates how electric vehicles can be charged while moving on the road, eliminating the need to stop charging."
+        android:textColor="@color/black"
+        android:textSize="15dp" />
+
+    <TextView
+        android:id="@+id/iconshop"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginVertical="650dp"
+        android:layout_marginStart="50dp"
+        android:drawableLeft="@drawable/ic_baseline_add_shopping_cart_24" />
+
+    <TextView
+        android:id="@+id/iconchat"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginVertical="650dp"
+        android:layout_marginStart="350dp"
+        android:drawableLeft="@drawable/ic_baseline_chat_24" />
+
+
+    <TextView
+        android:id="@+id/iconadd"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginVertical="650dp"
+        android:layout_marginStart="190dp"
+        android:drawableLeft="@drawable/ic_baseline_add_24" />
+
+</RelativeLayout>

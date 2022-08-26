@@ -1,0 +1,188 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg"
+    tools:context=".register">
+
+    <TextView
+        android:id="@+id/register"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="50dp"
+        android:layout_marginTop="50dp"
+        android:layout_marginEnd="50dp"
+        android:layout_marginBottom="50dp"
+        android:gravity="center"
+        android:text="Register"
+        android:textColor="@color/black"
+        android:textSize="35dp"
+        android:textStyle="bold" />
+
+
+    <EditText
+        android:id="@+id/name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/register"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="-30dp"
+        android:layout_marginEnd="10dp"
+        android:layout_marginBottom="10dp"
+        android:drawablePadding="20dp"
+        android:hint="Name : "
+        android:textColor="@color/black"
+        android:textColorHint="@color/black" />
+
+    <EditText
+        android:id="@+id/DOB"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/name"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="-4dp"
+        android:layout_marginEnd="10dp"
+        android:layout_marginBottom="10dp"
+        android:drawablePadding="0dp"
+        android:hint="DOB : "
+        android:textColor="@color/black"
+        android:textColorHint="@color/black"
+        tools:ignore="DuplicateIds" />
+
+    <EditText
+        android:id="@+id/college"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/DOB"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="-4dp"
+        android:layout_marginEnd="10dp"
+        android:layout_marginBottom="10dp"
+        android:drawablePadding="0dp"
+        android:hint="College : "
+        android:textColor="@color/black"
+        android:textColorHint="@color/black"
+        tools:ignore="DuplicateIds" />
+
+    <EditText
+        android:id="@+id/Dept"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/college"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="-4dp"
+        android:layout_marginEnd="10dp"
+        android:layout_marginBottom="10dp"
+        android:drawablePadding="0dp"
+        android:hint="Department : "
+        android:textColor="@color/black"
+        android:textColorHint="@color/black"
+        tools:ignore="DuplicateIds" />
+
+    <EditText
+        android:id="@+id/AOI"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/Dept"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="-4dp"
+        android:layout_marginEnd="10dp"
+        android:layout_marginBottom="10dp"
+        android:drawablePadding="0dp"
+        android:hint="Area of Interest : "
+        android:textColor="@color/black"
+        android:textColorHint="@color/black"
+        tools:ignore="DuplicateIds" />
+
+    <EditText
+        android:id="@+id/mail"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/AOI"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="-4dp"
+        android:layout_marginEnd="10dp"
+        android:layout_marginBottom="10dp"
+        android:drawablePadding="0dp"
+        android:hint="Email : "
+        android:textColor="@color/black"
+        android:textColorHint="@color/black"
+        tools:ignore="DuplicateIds" />
+
+    <EditText
+        android:id="@+id/Pn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/mail"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="-4dp"
+        android:layout_marginEnd="10dp"
+        android:layout_marginBottom="10dp"
+        android:drawablePadding="0dp"
+        android:hint="Phone Number : "
+        android:textColor="@color/black"
+        android:textColorHint="@color/black"
+        tools:ignore="DuplicateIds" />
+
+    <EditText
+        android:id="@+id/username"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/Pn"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="-4dp"
+        android:layout_marginEnd="10dp"
+        android:layout_marginBottom="10dp"
+        android:drawablePadding="0dp"
+        android:hint="Enter a valid Username : "
+        android:textColor="@color/black"
+        android:textColorHint="@color/black"
+        tools:ignore="DuplicateIds,TouchTargetSizeCheck" />
+
+    <EditText
+        android:id="@+id/password"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/username"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="-4dp"
+        android:layout_marginEnd="10dp"
+        android:layout_marginBottom="10dp"
+        android:drawablePadding="0dp"
+        android:hint="Password : "
+        android:textColor="@color/black"
+        android:textColorHint="@color/black"
+        tools:ignore="DuplicateIds" />
+
+    <EditText
+        android:id="@+id/RPassword"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/password"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="-4dp"
+        android:layout_marginEnd="10dp"
+        android:layout_marginBottom="10dp"
+        android:drawablePadding="0dp"
+        android:hint="Re-enter Password : "
+        android:textColor="@color/black"
+        android:textColorHint="@color/black"
+        tools:ignore="DuplicateIds" />
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/Submit"
+        android:layout_width="120dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/RPassword"
+        android:layout_marginStart="300dp"
+        android:layout_marginTop="-10dp"
+        android:layout_marginEnd="0dp"
+        android:layout_marginBottom="0dp"
+        android:backgroundTint="@color/cardview_dark_background"
+        android:hint="SUBMIT"
+        android:textColorHint="@color/white" />
+
+
+</RelativeLayout>

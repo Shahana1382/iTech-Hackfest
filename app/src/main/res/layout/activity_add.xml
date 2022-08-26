@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg"
+    tools:context=".add">
+
+    <TextView
+        android:id="@+id/addpost"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="50dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginEnd="50dp"
+        android:layout_marginBottom="50dp"
+        android:text="Add Post as :"
+        android:textColor="@color/black"
+        android:textSize="25dp" />
+
+    <TextView
+        android:id="@+id/priv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="150dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginEnd="50dp"
+        android:layout_below="@+id/addpost"
+        android:layout_marginBottom="50dp"
+        android:text="Private"
+        android:textColor="@color/black"
+        android:textSize="25dp" />
+
+    <TextView
+        android:id="@+id/pub"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/priv"
+        android:layout_marginStart="150dp"
+        android:layout_marginTop="1dp"
+        android:layout_marginEnd="50dp"
+        android:layout_marginBottom="50dp"
+        android:text="Public"
+        android:textColor="@color/black"
+        android:textSize="25dp" />
+
+    <TextView
+        android:id="@+id/cv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="150dp"
+        android:layout_marginTop="1dp"
+        android:layout_marginEnd="50dp"
+        android:layout_below="@+id/pub"
+        android:layout_marginBottom="50dp"
+        android:text="Company view"
+        android:textColor="@color/black"
+        android:textSize="25dp" />
+
+    <TextView
+        android:id="@+id/privpic"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginVertical="122dp"
+        android:layout_marginStart="100dp"
+        android:backgroundTint="@color/cardview_shadow_end_color"
+        android:drawableLeft="@drawable/ic_baseline_check_box_outline_blank_24"/>
+
+
+    <TextView
+        android:id="@+id/pubpic"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginVertical="206dp"
+        android:layout_marginStart="100dp"
+        android:backgroundTint="@color/cardview_shadow_end_color"
+        android:drawableLeft="@drawable/ic_baseline_check_box_outline_blank_24" />
+
+
+    <TextView
+        android:id="@+id/cvpic"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginVertical="292dp"
+        android:layout_marginStart="100dp"
+        android:backgroundTint="@color/cardview_shadow_end_color"
+        android:drawableLeft="@drawable/ic_baseline_check_box_outline_blank_24"/>
+
+</RelativeLayout>
